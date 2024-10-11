@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Merge One;
+}
+
+* {
+  box-sizing: border-box;
+  line-height: normal;
+  font-family: inherit;
+  margin: unset;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+ul {
+  margin: 0;
+  margin-inline: unset !important;
+  padding: 0;
+  list-style: none;
+}
+
+[type="text"],
+input:where(not([type])),
+[type="email"],
+[type="password"],
+[type="number"],
+[type="tel"],
+[type="url"],
+[type="search"],
+[type="date"],
+[type="time"],
+[type="datetime-local"],
+[type="month"],
+[type="color"],
+[multiple],
+textarea,
+select,
+button {
+appearance: none;
+background-color: transparent;
+border-color: unset;
+border-width: 0;
+border-radius: unset;
+padding: unset;
+font-size: unset;
+line-height: unset;
+color: unset;
+}
+input:focus-visible,
+[multiple]:focus-visible,
+textarea:focus-visible,
+select:focus-visible{
+    outline: none;
+}

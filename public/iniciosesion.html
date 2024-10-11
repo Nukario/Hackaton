@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenido a Community, Tech&Chat</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e6f3e6;
+        }
+        .header {
+            background-color: #90ee90;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+        .logo-icon {
+            font-size: 24px;
+            margin-right: 10px;
+        }
+        .logo-text {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .nav-buttons {
+            display: flex;
+            gap: 10px;
+        }
+        .button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 16px;
+            background-color: #d3f8d3;
+            color: #333;
+        }
+        .premium-button {
+            background-color: #d3f8d3;
+            color: #333;
+        }
+        .premium-icon {
+            color: #ffd700;
+            margin-left: 5px;
+        }
+        .content {
+            max-width: 400px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 30px;
+        }
+        .social-buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        .social-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            border-radius: 20px;
+            background-color: #e0e0e0;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .social-icon {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+        }
+        .divider {
+            display: flex;
+            align-items: center;
+            margin: 20px 0;
+        }
+        .divider::before,
+        .divider::after {
+            content: "";
+            flex: 1;
+            border-bottom: 1px solid #ccc;
+        }
+        .divider span {
+            padding: 0 10px;
+        }
+        .login-form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .login-input {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+        }
+        .login-button {
+            padding: 10px;
+            background-color: #a0c8a0;
+            color: #333;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+        .back-button {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            padding: 10px 20px;
+            background-color: #e0e0e0;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <span class="logo-icon">⚡</span>
+            <span class="logo-text">CTC Community,Tech&Chat</span>
+        </div>
+        <nav class="nav-buttons">
+            <button class="button">Registrate</button>
+            <button class="button premium-button">Premium <span class="premium-icon">⭐</span></button>
+        </nav>
+    </header>
+    <main class="content">
+        <h1>Bienvenido a Community,Tech&Chat</h1>
+        <div class="social-buttons">
+            <button class="social-button">
+                <img src="/api/placeholder/24/24" alt="Google icon" class="social-icon"> Iniciar sesion con Google
+            </button>
+            <button class="social-button">
+                <img src="/api/placeholder/24/24" alt="Apple icon" class="social-icon"> Iniciar sesion
+            </button>
+            <button class="social-button">
+                <img src="/api/placeholder/24/24" alt="Facebook icon" class="social-icon"> Iniciar sesion
+            </button>
+        </div>
+        <div class="divider">
+            <span>o</span>
+        </div>
+        <form class="login-form">
+            <input type="text" placeholder="Usuario o tu dirreccion de email" class="login-input">
+            <input type="password" placeholder="Contraseña" class="login-input">
+            <button type="submit" class="login-button">Iniciar sesion</button>
+        </form>
+    </main>
+    <button class="back-button">Atrás</button>
+</body>
+</html>

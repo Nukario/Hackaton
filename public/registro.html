@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Únete a Community, Tech&Chat</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e6f3e6;
+        }
+        .header {
+            background-color: #90ee90;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+        .logo-icon {
+            font-size: 24px;
+            margin-right: 10px;
+        }
+        .logo-text {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .nav-buttons {
+            display: flex;
+            gap: 10px;
+        }
+        .button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 16px;
+            background-color: #d3f8d3;
+            color: #333;
+        }
+        .premium-button {
+            background-color: #d3f8d3;
+            color: #333;
+        }
+        .premium-icon {
+            color: #ffd700;
+            margin-left: 5px;
+        }
+        .content {
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        p {
+            margin-bottom: 30px;
+        }
+        .social-buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-bottom: 30px;
+        }
+        .social-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            border-radius: 20px;
+            background-color: #e0e0e0;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .social-icon {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+        }
+        .divider {
+            display: flex;
+            align-items: center;
+            margin: 20px 0;
+        }
+        .divider::before,
+        .divider::after {
+            content: "";
+            flex: 1;
+            border-bottom: 1px solid #ccc;
+        }
+        .divider span {
+            padding: 0 10px;
+        }
+        .email-form {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        .email-input {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+        }
+        .register-button {
+            padding: 10px 20px;
+            background-color: #90ee90;
+            color: #333;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+        .footer {
+            display: flex;
+            justify-content: space-between;
+        }
+        .back-button,
+        .contact-button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .back-button {
+            background-color: #e0e0e0;
+        }
+        .contact-button {
+            background-color: #90ee90;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <span class="logo-icon">⚡</span>
+            <span class="logo-text">CTC Community,Tech&Chat</span>
+        </div>
+        <nav class="nav-buttons">
+            <button class="button" <a href="iniciosesion.html" target="_blank"></a>Iniciar sesión</button>
+            <button class="button premium-button">Premium <span class="premium-icon">⭐</span></button>
+        </nav>
+    </header>
+    <main class="content">
+        <h1>Únete a Community,Tech&Chat</h1>
+        <p>"Regístrate y sé parte del cambio. Comparte tus habilidades, conocimientos y recursos para construir un futuro más justo y sostenible. ¡Juntos podemos transformar nuestro entorno!"</p>
+        <div class="social-buttons">
+            <button class="social-button">
+                <img src="/api/placeholder/24/24" alt="Google icon" class="social-icon"> Registrarse con Google
+            </button>
+            <button class="social-button">
+                <img src="/api/placeholder/24/24" alt="Apple icon" class="social-icon"> Regístrate
+            </button>
+            <button class="social-button">
+                <img src="/api/placeholder/24/24" alt="Facebook icon" class="social-icon"> Regístrate
+            </button>
+        </div>
+        <div class="divider">
+            <span>o</span>
+        </div>
+        <form class="email-form">
+            <input type="email" placeholder="Registra tu dirección de email" class="email-input">
+            <button type="submit" class="register-button">Registrarme</button>
+        </form>
+    </main>
+    <footer class="footer">
+        <button class="back-button">Atrás</button>
+        <button class="contact-button">Contáctanos</button>
+    </footer>
+</body>
+</html>
