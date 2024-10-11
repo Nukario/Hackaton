@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community, Tech&Chat</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e6f3e6;
+        }
+        .header {
+            background-color: #90ee90;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+        .logo-icon {
+            font-size: 24px;
+            margin-right: 10px;
+        }
+        .logo-text {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .nav-buttons {
+            display: flex;
+            gap: 10px;
+        }
+        .button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .button-light {
+            background-color: #d3f8d3;
+            color: #333;
+        }
+        .button-premium {
+            background-color: #d3f8d3;
+            color: #333;
+        }
+        .premium-icon {
+            color: #ffd700;
+            margin-left: 5px;
+        }
+        .content {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .categories {
+            text-align: center;
+            margin-top: 40px;
+        }
+        .category-title {
+            font-size: 24px;
+            margin-bottom: 20px;
+            position: relative;
+        }
+        .category-title::before,
+        .category-title::after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            width: 30%;
+            height: 1px;
+            background-color: #90ee90;
+        }
+        .category-title::before {
+            left: 0;
+        }
+        .category-title::after {
+            right: 0;
+        }
+        .category-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .category-button {
+            padding: 10px 20px;
+            background-color: #90ee90;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <span><img src="\logo.png"></span>
+            <span class="logo-text"  <a href="index.html">>CTC Community,Tech&Chat</span>
+        </div>
+        <nav class="nav-buttons">
+            <button class="button button-light"  <a href="iniciosesion.html" target="_blank"></a>>Iniciar sesión</button>
+            <button class="button button-light">Registrate</button>
+            <button class="button button-premium">Premium <span class="premium-icon">⭐</span></button>
+        </nav>
+    </header>
+    <main class="content">
+        <p>Community, Tech&Chat es una plataforma innovadora diseñada para unir y fortalecer comunidades locales a través de la colaboración y el intercambio de recursos. Esta aplicación permite a los usuarios compartir habilidades, conocimientos y recursos para abordar desafíos sociales, ambientales y educativos que afectan a su entorno.</p>
+    </main>
+    <section class="categories">
+        <h2 class="category-title">Categorías</h2>
+        <div class="category-buttons">
+            <button class="category-button">Sociales</button>
+            <button class="category-button">Ambientales</button>
+            <button class="category-button">Educativas</button>
+        </div>
+    </section>
+</body>
+</html>

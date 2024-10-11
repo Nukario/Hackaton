@@ -1,0 +1,14 @@
+@font-face {
+    font-display: swap;
+    font-style: normal;
+    src: url("../public/fonts/LimelightRegular.tff");
+    font-family: "Limelight";
+    font-weight: 400;
+}
+
+@font-face {font-display: swap;
+    font-style: normal;
+    src: url("../public/fonts/MeeraInimaiRegular:tff");
+    font-family: "Meera Inimal";
+    font-weight: 400;
+}
